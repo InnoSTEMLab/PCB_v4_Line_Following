@@ -2459,7 +2459,7 @@
 				)
 			)
 		)
-		(property "Value" "MOTOR_2"
+		(property "Value" "RIGHT M"
 			(at 1.25 3.5 90)
 			(layer "F.SilkS")
 			(uuid "9702b21e-9bf2-46cd-a261-da34ae9bd06b")
@@ -8805,7 +8805,7 @@
 				)
 			)
 		)
-		(property "Value" "MOTOR_1"
+		(property "Value" "LEFT M"
 			(at 1.25 3.51 90)
 			(layer "F.SilkS")
 			(uuid "6719b0bf-c52a-4d7f-b706-35e6dfa3a48f")
