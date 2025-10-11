@@ -9,4 +9,4 @@
 - Trace fixed for switch that was keeping motor controller on all the time. Motors will be off when usb c connected only.
 - Power conversion only happens in one part of the pcb
 - USB C footprint updated to current part we have previosuily ordered. No more issues soldering them.
-
+- Decoupling capacitors added to motor driver and termination resistors to USB C data lines
