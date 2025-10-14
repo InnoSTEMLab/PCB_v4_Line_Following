@@ -5400,6 +5400,12 @@
 		(uuid "db5ce2ed-599a-4c33-b9f0-64a4b67944aa")
 	)
 	(junction
+		(at 86.36 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08adcd88-0388-445d-968d-f1d84ae36a05")
+	)
+	(junction
 		(at 33.02 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5476,12 +5482,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cbecf1d-ef07-43cb-93ce-848d939986ff")
-	)
-	(junction
-		(at 78.74 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ef85553-5b08-48fc-a8f4-bd0a53671879")
 	)
 	(junction
 		(at 220.98 43.18)
@@ -5841,7 +5841,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 173.355) (xy 78.74 172.72)
+			(xy 86.36 173.99) (xy 86.36 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5851,7 +5851,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 181.61) (xy 60.96 181.61)
+			(xy 86.36 181.61) (xy 60.96 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6521,7 +6521,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 172.72) (xy 68.58 172.72)
+			(xy 68.58 172.72) (xy 86.36 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6631,16 +6631,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 172.72) (xy 78.74 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e801cece-7713-4ced-b8ba-2ba305d7c620")
-	)
-	(wire
-		(pts
 			(xy 33.02 187.325) (xy 33.02 189.865)
 		)
 		(stroke
@@ -6671,23 +6661,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 170.815) (xy 85.725 172.72)
+			(xy 86.36 170.18) (xy 86.36 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f111b898-194f-4f7c-8d18-1937dede7863")
-	)
-	(wire
-		(pts
-			(xy 78.74 181.61) (xy 78.74 180.975)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f19ab10d-78f2-47ad-b099-52b9e1dddaf4")
 	)
 	(wire
 		(pts
@@ -8289,28 +8269,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 69.85 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b6228f4c-58a7-4d03-ab58-60f9c7a6f860")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.9662 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -11207,7 +11165,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 85.725 170.815 0)
+		(at 86.36 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11215,7 +11173,7 @@
 		(dnp no)
 		(uuid "6b371de0-5a40-4be1-bea2-97933d91b7a9")
 		(property "Reference" "#PWR013"
-			(at 85.725 174.625 0)
+			(at 86.36 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11224,7 +11182,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 88.9 168.91 0)
+			(at 89.535 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11232,7 +11190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.725 170.815 0)
+			(at 86.36 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11241,7 +11199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.725 170.815 0)
+			(at 86.36 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11250,7 +11208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.725 170.815 0)
+			(at 86.36 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12412,7 +12370,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 177.165 0)
+		(at 86.36 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12421,7 +12379,7 @@
 		(fields_autoplaced yes)
 		(uuid "c02e6d68-f36e-477c-ada9-54b923353332")
 		(property "Reference" "C8"
-			(at 82.55 175.895 0)
+			(at 90.17 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12430,7 +12388,7 @@
 			)
 		)
 		(property "Value" "22uf"
-			(at 82.55 178.435 0)
+			(at 90.17 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12439,7 +12397,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 79.7052 180.975 0)
+			(at 87.3252 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12448,7 +12406,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 177.165 0)
+			(at 86.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12457,7 +12415,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 177.165 0)
+			(at 86.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,7 +12655,7 @@
 				)
 			)
 		)
-		(property "Value" "MOTOR_1"
+		(property "Value" "LEFT M"
 			(at 273.685 119.38 0)
 			(effects
 				(font
@@ -12905,7 +12863,7 @@
 				)
 			)
 		)
-		(property "Value" "MOTOR_2"
+		(property "Value" "RIGHT M"
 			(at 273.685 102.235 0)
 			(effects
 				(font
